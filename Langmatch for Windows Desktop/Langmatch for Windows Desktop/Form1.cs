@@ -18,6 +18,8 @@ namespace Langmatch_for_Windows_Desktop
         ResourceSet rs;
         ArrayList strs;
 
+        bool close = true;
+
         public Form1()
         {
             InitializeComponent();
@@ -67,7 +69,15 @@ namespace Langmatch_for_Windows_Desktop
             }
             Game frm = new Game(comboBox1.Text, comboBox2.Text, comboBox3.Text);
             frm.Show();
+            close = false;
             this.Close();
+            close = true;
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if(close)
+                Environment.Exit(0);
         }
     }
 }

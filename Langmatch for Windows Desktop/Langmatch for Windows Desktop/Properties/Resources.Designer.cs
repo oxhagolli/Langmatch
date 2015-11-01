@@ -91,6 +91,19 @@ namespace Langmatch_for_Windows_Desktop.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to soccer サッカー
+        ///basketball バスケットボール
+        ///swimming 水泳
+        ///golf ゴルフ
+        ///tennis テニスS.
+        /// </summary>
+        internal static string _japanese {
+            get {
+                return ResourceManager.GetString("_japanese", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Albanian {
@@ -106,6 +119,16 @@ namespace Langmatch_for_Windows_Desktop.Properties {
         internal static System.Drawing.Bitmap French {
             get {
                 object obj = ResourceManager.GetObject("French", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap German {
+            get {
+                object obj = ResourceManager.GetObject("German", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

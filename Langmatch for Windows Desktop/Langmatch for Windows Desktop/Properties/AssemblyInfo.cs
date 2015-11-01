@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Langmatch for Windows Desktop")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Langmatch")]
+[assembly: AssemblyDescription("Langmatch Game for Windows Desktop")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Langmatch for Windows Desktop")]
-[assembly: AssemblyCopyright("Copyright ©  2015")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("Orens Xhagolli and Victoria Sardelli")]
+[assembly: AssemblyProduct("Langmatch")]
+[assembly: AssemblyCopyright("Langmatch (C)")]
+[assembly: AssemblyTrademark("Langmatch")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
